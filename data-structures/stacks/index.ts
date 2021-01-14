@@ -30,7 +30,7 @@ class Stack {
 
 	peek(): Nullable<Node> {
 		/*
-		 * Notes: Lets you see the top node
+		 * Notes: Lets you see the first item in a stack
 		 */
 
 		return this.top
