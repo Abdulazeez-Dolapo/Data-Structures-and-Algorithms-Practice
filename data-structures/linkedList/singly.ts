@@ -154,13 +154,13 @@ class SinglyLinkedList {
 			return this.head
 		}
 
-		let first = this.head
+		let first = this.head //first = 10
 		this.tail = first
-		let second = first
+		let second = first //first = 10 second = 10
 
 		while (second) {
-			const temp = second.next
-			second.next = first
+			const temp = second.next // temp = 5
+			second.next = first //
 			first = second
 			second = temp
 		}
