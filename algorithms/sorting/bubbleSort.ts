@@ -1,3 +1,11 @@
+/**
+ * Bubble sort works by traversing through the array and comparing each element with the next one.
+ * If next element is less than the current element, swap their positions.
+ * keep traversing through the array until it is completely sorted.
+ *
+ * Time complexity => O(n^2)
+ * Space complexity => O(1)
+ */
 const bubbleSort = (arrayToSort: number[]): number[] => {
 	let sortedArray = [...arrayToSort]
 	let maxLength = arrayToSort.length
@@ -21,7 +29,3 @@ const bubbleSort = (arrayToSort: number[]): number[] => {
 
 	return sortedArray
 }
-
-const numbers = [1, 3, 4, 2, 6, 8, 5]
-
-console.log(bubbleSort(numbers))
